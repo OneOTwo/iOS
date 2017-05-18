@@ -1,0 +1,914 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10BB04E6CD82F2C976251D74 /* libPods-OneOTwoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7DE0C2C1FEC8A5CA11149C4 /* libPods-OneOTwoUITests.a */; };
+		12058625EA0FE79A053EAD7D /* libPods-OneOTwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2EE12B4CE45E676FC68DF7B /* libPods-OneOTwo.a */; };
+		7C18607224E53DE496F2B769 /* libPods-OneOTwoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B0463729D0CFE4998DC5414 /* libPods-OneOTwoTests.a */; };
+		D942ECD81ECD360B0042DBBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D942ECD71ECD360B0042DBBE /* main.m */; };
+		D942ECDB1ECD360B0042DBBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D942ECDA1ECD360B0042DBBE /* AppDelegate.m */; };
+		D942ECDE1ECD360B0042DBBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D942ECDD1ECD360B0042DBBE /* ViewController.m */; };
+		D942ECE11ECD360B0042DBBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D942ECDF1ECD360B0042DBBE /* Main.storyboard */; };
+		D942ECE31ECD360B0042DBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D942ECE21ECD360B0042DBBE /* Assets.xcassets */; };
+		D942ECE61ECD360B0042DBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D942ECE41ECD360B0042DBBE /* LaunchScreen.storyboard */; };
+		D942ECF11ECD360C0042DBBE /* OneOTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D942ECF01ECD360C0042DBBE /* OneOTwoTests.m */; };
+		D942ECFC1ECD360C0042DBBE /* OneOTwoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D942ECFB1ECD360C0042DBBE /* OneOTwoUITests.m */; };
+		D942ED141ECD3C8F0042DBBE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D942ED131ECD3C8F0042DBBE /* BaseViewController.m */; };
+		D942ED191ECD3ED20042DBBE /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D942ED181ECD3ED20042DBBE /* BaseNavViewController.m */; };
+		D942ED1C1ECD40070042DBBE /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D942ED1B1ECD40070042DBBE /* TabbarViewController.m */; };
+		D942ED221ECD429D0042DBBE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D942ED211ECD429D0042DBBE /* LoginViewController.m */; };
+		D9C4233C1ECD4B22004BCE23 /* AlertShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C4233B1ECD4B22004BCE23 /* AlertShowView.m */; };
+		D9C423451ECD4E3C004BCE23 /* PhotoBrowserScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C4233F1ECD4E3C004BCE23 /* PhotoBrowserScrollView.m */; };
+		D9C423461ECD4E3C004BCE23 /* PhotoBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C423411ECD4E3C004BCE23 /* PhotoBrowserView.m */; };
+		D9C423471ECD4E3C004BCE23 /* PhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C423431ECD4E3C004BCE23 /* PhotoScrollView.m */; };
+		D9C4234E1ECD4FB8004BCE23 /* NSString+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C4234D1ECD4FB8004BCE23 /* NSString+Expand.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D942ECED1ECD360C0042DBBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D942ECCB1ECD360B0042DBBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D942ECD21ECD360B0042DBBE;
+			remoteInfo = OneOTwo;
+		};
+		D942ECF81ECD360C0042DBBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D942ECCB1ECD360B0042DBBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D942ECD21ECD360B0042DBBE;
+			remoteInfo = OneOTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BEF9031805EDDF8597BA146 /* Pods-OneOTwoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneOTwoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneOTwoTests/Pods-OneOTwoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33315DD4BF4A99FB49F4F1AE /* Pods-OneOTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneOTwo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneOTwo/Pods-OneOTwo.release.xcconfig"; sourceTree = "<group>"; };
+		4B0463729D0CFE4998DC5414 /* libPods-OneOTwoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneOTwoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB284F4B43FE04CB38E2EAC /* Pods-OneOTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneOTwo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneOTwo/Pods-OneOTwo.debug.xcconfig"; sourceTree = "<group>"; };
+		767A4AED1182D68C199CE836 /* Pods-OneOTwoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneOTwoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneOTwoUITests/Pods-OneOTwoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2EE12B4CE45E676FC68DF7B /* libPods-OneOTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneOTwo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA802B332FE499F48E9C7C3 /* Pods-OneOTwoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneOTwoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneOTwoUITests/Pods-OneOTwoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D3B0C4B35CCBC093801C8A33 /* Pods-OneOTwoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneOTwoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneOTwoTests/Pods-OneOTwoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7DE0C2C1FEC8A5CA11149C4 /* libPods-OneOTwoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneOTwoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D942ECD31ECD360B0042DBBE /* OneOTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneOTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D942ECD71ECD360B0042DBBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D942ECD91ECD360B0042DBBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D942ECDA1ECD360B0042DBBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D942ECDC1ECD360B0042DBBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D942ECDD1ECD360B0042DBBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D942ECE01ECD360B0042DBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D942ECE21ECD360B0042DBBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D942ECE51ECD360B0042DBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D942ECE71ECD360B0042DBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D942ECEC1ECD360C0042DBBE /* OneOTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneOTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D942ECF01ECD360C0042DBBE /* OneOTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneOTwoTests.m; sourceTree = "<group>"; };
+		D942ECF21ECD360C0042DBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D942ECF71ECD360C0042DBBE /* OneOTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneOTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D942ECFB1ECD360C0042DBBE /* OneOTwoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneOTwoUITests.m; sourceTree = "<group>"; };
+		D942ECFD1ECD360C0042DBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D942ED121ECD3C8F0042DBBE /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D942ED131ECD3C8F0042DBBE /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D942ED151ECD3D380042DBBE /* OneOTwoHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneOTwoHeader.h; sourceTree = "<group>"; };
+		D942ED161ECD3D590042DBBE /* OneOTwoPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneOTwoPrefixHeader.pch; sourceTree = "<group>"; };
+		D942ED171ECD3ED20042DBBE /* BaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
+		D942ED181ECD3ED20042DBBE /* BaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavViewController.m; sourceTree = "<group>"; };
+		D942ED1A1ECD40070042DBBE /* TabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		D942ED1B1ECD40070042DBBE /* TabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
+		D942ED201ECD429D0042DBBE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D942ED211ECD429D0042DBBE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D9C4233A1ECD4B22004BCE23 /* AlertShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertShowView.h; sourceTree = "<group>"; };
+		D9C4233B1ECD4B22004BCE23 /* AlertShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertShowView.m; sourceTree = "<group>"; };
+		D9C4233E1ECD4E3C004BCE23 /* PhotoBrowserScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoBrowserScrollView.h; sourceTree = "<group>"; };
+		D9C4233F1ECD4E3C004BCE23 /* PhotoBrowserScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowserScrollView.m; sourceTree = "<group>"; };
+		D9C423401ECD4E3C004BCE23 /* PhotoBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoBrowserView.h; sourceTree = "<group>"; };
+		D9C423411ECD4E3C004BCE23 /* PhotoBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowserView.m; sourceTree = "<group>"; };
+		D9C423421ECD4E3C004BCE23 /* PhotoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoScrollView.h; sourceTree = "<group>"; };
+		D9C423431ECD4E3C004BCE23 /* PhotoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoScrollView.m; sourceTree = "<group>"; };
+		D9C4234C1ECD4FB8004BCE23 /* NSString+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Expand.h"; sourceTree = "<group>"; };
+		D9C4234D1ECD4FB8004BCE23 /* NSString+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Expand.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D942ECD01ECD360B0042DBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12058625EA0FE79A053EAD7D /* libPods-OneOTwo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D942ECE91ECD360C0042DBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C18607224E53DE496F2B769 /* libPods-OneOTwoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D942ECF41ECD360C0042DBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BB04E6CD82F2C976251D74 /* libPods-OneOTwoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B983C839D7577F7D7CAD9AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2EE12B4CE45E676FC68DF7B /* libPods-OneOTwo.a */,
+				4B0463729D0CFE4998DC5414 /* libPods-OneOTwoTests.a */,
+				D7DE0C2C1FEC8A5CA11149C4 /* libPods-OneOTwoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44353EE2B2BDC6F10DA65548 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FB284F4B43FE04CB38E2EAC /* Pods-OneOTwo.debug.xcconfig */,
+				33315DD4BF4A99FB49F4F1AE /* Pods-OneOTwo.release.xcconfig */,
+				2BEF9031805EDDF8597BA146 /* Pods-OneOTwoTests.debug.xcconfig */,
+				D3B0C4B35CCBC093801C8A33 /* Pods-OneOTwoTests.release.xcconfig */,
+				767A4AED1182D68C199CE836 /* Pods-OneOTwoUITests.debug.xcconfig */,
+				AAA802B332FE499F48E9C7C3 /* Pods-OneOTwoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D942ECCA1ECD360B0042DBBE = {
+			isa = PBXGroup;
+			children = (
+				D942ECD51ECD360B0042DBBE /* OneOTwo */,
+				D942ECEF1ECD360C0042DBBE /* OneOTwoTests */,
+				D942ECFA1ECD360C0042DBBE /* OneOTwoUITests */,
+				D942ECD41ECD360B0042DBBE /* Products */,
+				44353EE2B2BDC6F10DA65548 /* Pods */,
+				0B983C839D7577F7D7CAD9AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D942ECD41ECD360B0042DBBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D942ECD31ECD360B0042DBBE /* OneOTwo.app */,
+				D942ECEC1ECD360C0042DBBE /* OneOTwoTests.xctest */,
+				D942ECF71ECD360C0042DBBE /* OneOTwoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D942ECD51ECD360B0042DBBE /* OneOTwo */ = {
+			isa = PBXGroup;
+			children = (
+				D942ED0B1ECD3BB70042DBBE /* Public */,
+				D942ED101ECD3C1B0042DBBE /* LoginAndReg */,
+				D942ED111ECD3C260042DBBE /* Home */,
+				D942ED0F1ECD3C0E0042DBBE /* My */,
+				D942ECD61ECD360B0042DBBE /* Supporting Files */,
+			);
+			path = OneOTwo;
+			sourceTree = "<group>";
+		};
+		D942ECD61ECD360B0042DBBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D942ECD91ECD360B0042DBBE /* AppDelegate.h */,
+				D942ECDA1ECD360B0042DBBE /* AppDelegate.m */,
+				D942ECDC1ECD360B0042DBBE /* ViewController.h */,
+				D942ECDD1ECD360B0042DBBE /* ViewController.m */,
+				D942ECDF1ECD360B0042DBBE /* Main.storyboard */,
+				D942ECE21ECD360B0042DBBE /* Assets.xcassets */,
+				D942ECE41ECD360B0042DBBE /* LaunchScreen.storyboard */,
+				D942ECE71ECD360B0042DBBE /* Info.plist */,
+				D942ECD71ECD360B0042DBBE /* main.m */,
+				D942ED151ECD3D380042DBBE /* OneOTwoHeader.h */,
+				D942ED161ECD3D590042DBBE /* OneOTwoPrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D942ECEF1ECD360C0042DBBE /* OneOTwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D942ECF01ECD360C0042DBBE /* OneOTwoTests.m */,
+				D942ECF21ECD360C0042DBBE /* Info.plist */,
+			);
+			path = OneOTwoTests;
+			sourceTree = "<group>";
+		};
+		D942ECFA1ECD360C0042DBBE /* OneOTwoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D942ECFB1ECD360C0042DBBE /* OneOTwoUITests.m */,
+				D942ECFD1ECD360C0042DBBE /* Info.plist */,
+			);
+			path = OneOTwoUITests;
+			sourceTree = "<group>";
+		};
+		D942ED0B1ECD3BB70042DBBE /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				D942ED0C1ECD3BB70042DBBE /* BaseController */,
+				D942ED0D1ECD3BB70042DBBE /* PublicView */,
+				D942ED0E1ECD3BB70042DBBE /* Third */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		D942ED0C1ECD3BB70042DBBE /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				D942ED121ECD3C8F0042DBBE /* BaseViewController.h */,
+				D942ED131ECD3C8F0042DBBE /* BaseViewController.m */,
+				D942ED171ECD3ED20042DBBE /* BaseNavViewController.h */,
+				D942ED181ECD3ED20042DBBE /* BaseNavViewController.m */,
+				D942ED1A1ECD40070042DBBE /* TabbarViewController.h */,
+				D942ED1B1ECD40070042DBBE /* TabbarViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		D942ED0D1ECD3BB70042DBBE /* PublicView */ = {
+			isa = PBXGroup;
+			children = (
+				D9C4233A1ECD4B22004BCE23 /* AlertShowView.h */,
+				D9C4233B1ECD4B22004BCE23 /* AlertShowView.m */,
+			);
+			path = PublicView;
+			sourceTree = "<group>";
+		};
+		D942ED0E1ECD3BB70042DBBE /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				D9C423481ECD4F5D004BCE23 /* NSString+Expand */,
+				D9C4233D1ECD4E3C004BCE23 /* MyPhotoScrollView */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		D942ED0F1ECD3C0E0042DBBE /* My */ = {
+			isa = PBXGroup;
+			children = (
+				D9C423341ECD4A9C004BCE23 /* Controller */,
+				D9C423351ECD4A9C004BCE23 /* Model */,
+				D9C423361ECD4A9C004BCE23 /* VIew */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		D942ED101ECD3C1B0042DBBE /* LoginAndReg */ = {
+			isa = PBXGroup;
+			children = (
+				D942ED201ECD429D0042DBBE /* LoginViewController.h */,
+				D942ED211ECD429D0042DBBE /* LoginViewController.m */,
+			);
+			path = LoginAndReg;
+			sourceTree = "<group>";
+		};
+		D942ED111ECD3C260042DBBE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D9C423371ECD4AA6004BCE23 /* Controller */,
+				D9C423381ECD4AA6004BCE23 /* Model */,
+				D9C423391ECD4AA6004BCE23 /* VIew */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D9C423341ECD4A9C004BCE23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9C423351ECD4A9C004BCE23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9C423361ECD4A9C004BCE23 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		D9C423371ECD4AA6004BCE23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9C423381ECD4AA6004BCE23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9C423391ECD4AA6004BCE23 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		D9C4233D1ECD4E3C004BCE23 /* MyPhotoScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D9C4233E1ECD4E3C004BCE23 /* PhotoBrowserScrollView.h */,
+				D9C4233F1ECD4E3C004BCE23 /* PhotoBrowserScrollView.m */,
+				D9C423401ECD4E3C004BCE23 /* PhotoBrowserView.h */,
+				D9C423411ECD4E3C004BCE23 /* PhotoBrowserView.m */,
+				D9C423421ECD4E3C004BCE23 /* PhotoScrollView.h */,
+				D9C423431ECD4E3C004BCE23 /* PhotoScrollView.m */,
+			);
+			path = MyPhotoScrollView;
+			sourceTree = "<group>";
+		};
+		D9C423481ECD4F5D004BCE23 /* NSString+Expand */ = {
+			isa = PBXGroup;
+			children = (
+				D9C4234C1ECD4FB8004BCE23 /* NSString+Expand.h */,
+				D9C4234D1ECD4FB8004BCE23 /* NSString+Expand.m */,
+			);
+			path = "NSString+Expand";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D942ECD21ECD360B0042DBBE /* OneOTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D942ED001ECD360C0042DBBE /* Build configuration list for PBXNativeTarget "OneOTwo" */;
+			buildPhases = (
+				0AB30163D4A2F560C2FC8314 /* [CP] Check Pods Manifest.lock */,
+				D942ECCF1ECD360B0042DBBE /* Sources */,
+				D942ECD01ECD360B0042DBBE /* Frameworks */,
+				D942ECD11ECD360B0042DBBE /* Resources */,
+				4A309C75F1C2AEDE455C7B86 /* [CP] Embed Pods Frameworks */,
+				7A0485B9FFEBC2A5121F344E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneOTwo;
+			productName = OneOTwo;
+			productReference = D942ECD31ECD360B0042DBBE /* OneOTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D942ECEB1ECD360C0042DBBE /* OneOTwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D942ED031ECD360C0042DBBE /* Build configuration list for PBXNativeTarget "OneOTwoTests" */;
+			buildPhases = (
+				5AE9110C8C2F837D3547A6F7 /* [CP] Check Pods Manifest.lock */,
+				D942ECE81ECD360C0042DBBE /* Sources */,
+				D942ECE91ECD360C0042DBBE /* Frameworks */,
+				D942ECEA1ECD360C0042DBBE /* Resources */,
+				00583B090AB036464ECCCB55 /* [CP] Embed Pods Frameworks */,
+				9A42E7492B50B621186CF06D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D942ECEE1ECD360C0042DBBE /* PBXTargetDependency */,
+			);
+			name = OneOTwoTests;
+			productName = OneOTwoTests;
+			productReference = D942ECEC1ECD360C0042DBBE /* OneOTwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D942ECF61ECD360C0042DBBE /* OneOTwoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D942ED061ECD360C0042DBBE /* Build configuration list for PBXNativeTarget "OneOTwoUITests" */;
+			buildPhases = (
+				67A93FEF813637ACB1FA82A5 /* [CP] Check Pods Manifest.lock */,
+				D942ECF31ECD360C0042DBBE /* Sources */,
+				D942ECF41ECD360C0042DBBE /* Frameworks */,
+				D942ECF51ECD360C0042DBBE /* Resources */,
+				04CA7251268A2EAD0A8292D9 /* [CP] Embed Pods Frameworks */,
+				4D06996EB621D8FE7DEADEDE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D942ECF91ECD360C0042DBBE /* PBXTargetDependency */,
+			);
+			name = OneOTwoUITests;
+			productName = OneOTwoUITests;
+			productReference = D942ECF71ECD360C0042DBBE /* OneOTwoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D942ECCB1ECD360B0042DBBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "郭良烜";
+				TargetAttributes = {
+					D942ECD21ECD360B0042DBBE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					D942ECEB1ECD360C0042DBBE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D942ECD21ECD360B0042DBBE;
+					};
+					D942ECF61ECD360C0042DBBE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D942ECD21ECD360B0042DBBE;
+					};
+				};
+			};
+			buildConfigurationList = D942ECCE1ECD360B0042DBBE /* Build configuration list for PBXProject "OneOTwo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D942ECCA1ECD360B0042DBBE;
+			productRefGroup = D942ECD41ECD360B0042DBBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D942ECD21ECD360B0042DBBE /* OneOTwo */,
+				D942ECEB1ECD360C0042DBBE /* OneOTwoTests */,
+				D942ECF61ECD360C0042DBBE /* OneOTwoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D942ECD11ECD360B0042DBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D942ECE61ECD360B0042DBBE /* LaunchScreen.storyboard in Resources */,
+				D942ECE31ECD360B0042DBBE /* Assets.xcassets in Resources */,
+				D942ECE11ECD360B0042DBBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D942ECEA1ECD360C0042DBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D942ECF51ECD360C0042DBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00583B090AB036464ECCCB55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneOTwoTests/Pods-OneOTwoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		04CA7251268A2EAD0A8292D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneOTwoUITests/Pods-OneOTwoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0AB30163D4A2F560C2FC8314 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A309C75F1C2AEDE455C7B86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneOTwo/Pods-OneOTwo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D06996EB621D8FE7DEADEDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneOTwoUITests/Pods-OneOTwoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AE9110C8C2F837D3547A6F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		67A93FEF813637ACB1FA82A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A0485B9FFEBC2A5121F344E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneOTwo/Pods-OneOTwo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A42E7492B50B621186CF06D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneOTwoTests/Pods-OneOTwoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D942ECCF1ECD360B0042DBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C423471ECD4E3C004BCE23 /* PhotoScrollView.m in Sources */,
+				D9C423461ECD4E3C004BCE23 /* PhotoBrowserView.m in Sources */,
+				D942ECDE1ECD360B0042DBBE /* ViewController.m in Sources */,
+				D942ED141ECD3C8F0042DBBE /* BaseViewController.m in Sources */,
+				D942ED1C1ECD40070042DBBE /* TabbarViewController.m in Sources */,
+				D942ED191ECD3ED20042DBBE /* BaseNavViewController.m in Sources */,
+				D942ED221ECD429D0042DBBE /* LoginViewController.m in Sources */,
+				D942ECDB1ECD360B0042DBBE /* AppDelegate.m in Sources */,
+				D9C4233C1ECD4B22004BCE23 /* AlertShowView.m in Sources */,
+				D9C423451ECD4E3C004BCE23 /* PhotoBrowserScrollView.m in Sources */,
+				D942ECD81ECD360B0042DBBE /* main.m in Sources */,
+				D9C4234E1ECD4FB8004BCE23 /* NSString+Expand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D942ECE81ECD360C0042DBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D942ECF11ECD360C0042DBBE /* OneOTwoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D942ECF31ECD360C0042DBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D942ECFC1ECD360C0042DBBE /* OneOTwoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D942ECEE1ECD360C0042DBBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D942ECD21ECD360B0042DBBE /* OneOTwo */;
+			targetProxy = D942ECED1ECD360C0042DBBE /* PBXContainerItemProxy */;
+		};
+		D942ECF91ECD360C0042DBBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D942ECD21ECD360B0042DBBE /* OneOTwo */;
+			targetProxy = D942ECF81ECD360C0042DBBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D942ECDF1ECD360B0042DBBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D942ECE01ECD360B0042DBBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D942ECE41ECD360B0042DBBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D942ECE51ECD360B0042DBBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D942ECFE1ECD360C0042DBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D942ECFF1ECD360C0042DBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D942ED011ECD360C0042DBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB284F4B43FE04CB38E2EAC /* Pods-OneOTwo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OneOTwo/OneOTwoPrefixHeader.pch";
+				INFOPLIST_FILE = OneOTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glx.OneOTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		D942ED021ECD360C0042DBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33315DD4BF4A99FB49F4F1AE /* Pods-OneOTwo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OneOTwo/OneOTwoPrefixHeader.pch";
+				INFOPLIST_FILE = OneOTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glx.OneOTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		D942ED041ECD360C0042DBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BEF9031805EDDF8597BA146 /* Pods-OneOTwoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OneOTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glx.OneOTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneOTwo.app/OneOTwo";
+			};
+			name = Debug;
+		};
+		D942ED051ECD360C0042DBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B0C4B35CCBC093801C8A33 /* Pods-OneOTwoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OneOTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glx.OneOTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneOTwo.app/OneOTwo";
+			};
+			name = Release;
+		};
+		D942ED071ECD360C0042DBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767A4AED1182D68C199CE836 /* Pods-OneOTwoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = OneOTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glx.OneOTwoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OneOTwo;
+			};
+			name = Debug;
+		};
+		D942ED081ECD360C0042DBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA802B332FE499F48E9C7C3 /* Pods-OneOTwoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = OneOTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glx.OneOTwoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OneOTwo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D942ECCE1ECD360B0042DBBE /* Build configuration list for PBXProject "OneOTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D942ECFE1ECD360C0042DBBE /* Debug */,
+				D942ECFF1ECD360C0042DBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D942ED001ECD360C0042DBBE /* Build configuration list for PBXNativeTarget "OneOTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D942ED011ECD360C0042DBBE /* Debug */,
+				D942ED021ECD360C0042DBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D942ED031ECD360C0042DBBE /* Build configuration list for PBXNativeTarget "OneOTwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D942ED041ECD360C0042DBBE /* Debug */,
+				D942ED051ECD360C0042DBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D942ED061ECD360C0042DBBE /* Build configuration list for PBXNativeTarget "OneOTwoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D942ED071ECD360C0042DBBE /* Debug */,
+				D942ED081ECD360C0042DBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D942ECCB1ECD360B0042DBBE /* Project object */;
+}
